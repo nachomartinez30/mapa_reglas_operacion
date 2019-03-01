@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="371" column="12" selection-start-line="371" selection-start-column="12" selection-end-line="371" selection-end-column="29" />
+            <state relative-caret-position="468">
+              <caret line="378" column="7" lean-forward="true" selection-start-line="378" selection-start-column="7" selection-end-line="378" selection-end-column="7" />
               <folding>
                 <element signature="e#2910#3636#0#HTML" />
               </folding>
@@ -39,6 +39,7 @@
     <findStrings>
       <find>arg</find>
       <find>path7347</find>
+      <find>d=&quot;path</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,12 +112,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551467964360</updated>
-      <workItem from="1551467966330" duration="3088000" />
+      <workItem from="1551467966330" duration="4003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3088000" />
+    <option name="totallyTimeSpent" value="4003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="934" extended-state="6" />
@@ -175,8 +176,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="371" column="12" selection-start-line="371" selection-start-column="12" selection-end-line="371" selection-end-column="29" />
+        <state relative-caret-position="468">
+          <caret line="378" column="7" lean-forward="true" selection-start-line="378" selection-start-column="7" selection-end-line="378" selection-end-column="7" />
           <folding>
             <element signature="e#2910#3636#0#HTML" />
           </folding>
