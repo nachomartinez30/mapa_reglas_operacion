@@ -133,4 +133,18 @@
 {
 	clear: both;
 }
+
+
+
+svg {
+	background:lightgray;
+}
+path{
+	fill:#b9b9b9;
+	transition: 0.5s all linear;
+}
+path:hover {
+	fill:#255E69;
+}
 /*---CSS Global---*/
+
