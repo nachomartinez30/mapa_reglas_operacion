@@ -24,11 +24,11 @@
     <!-- Contenido -->
     <main class="page">
       <div class="container-fluid">
-      	<div class="row">
-      		<div class="col-md-10 col-lg-10 center-element clear-both">
-      			<h2>Mapa RO 2019</h2>
+      	<div class="row flex-column">
+      		<div class="col-md-10 col-lg-10 h-center">
+      			<h2 class="text-center">Mapa RO 2019</h2>
       		</div>
-      		<div class="col-md-8 col-lg-8 center-element clear-both">
+      		<div class="col-md-8 col-lg-8 h-center">
       			<img src="img/mapa.jpg" class="img-responsive" alt="">
       		</div>
       	</div>

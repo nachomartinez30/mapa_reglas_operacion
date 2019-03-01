@@ -80,11 +80,28 @@
 	justify-content: center;
 	margin: 0 auto;
 }
+.v-center
+{
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+.h-center
+{
+	margin: 0 auto;
+	float: none;
+}
 .center-div-flex
 {
 	display: flex;
 	justify-content: center; /* align horizontally */
 	align-items: center;
+}
+.flex-column
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 .align-element
 {
