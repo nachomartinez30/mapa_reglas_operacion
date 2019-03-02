@@ -139,17 +139,6 @@ body
 }
 
 
-
-svg {
-	background:lightgray;
-}
-path{
-	fill:#b9b9b9;
-	transition: 0.5s all linear;
-}
-path:hover {
-	fill:#255E69;
-}
 /*---CSS Global---*/
 /*---Tabla Estados---*/
 .datosEstado
@@ -203,4 +192,19 @@ path:hover {
 .well
 {
 	background-color: #9d2449!important;
+}
+
+
+
+/*CSS MAPA*/
+
+svg {
+	background:lightgray;
+}
+path{
+	fill:#b9b9b9;
+	transition: 0.5s all linear;
+}
+path:hover {
+	fill:#621132;
 }

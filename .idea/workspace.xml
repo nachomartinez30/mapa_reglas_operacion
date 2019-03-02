@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="302c3732-a1aa-4794-9e1e-9791df49c3ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="378" column="7" lean-forward="true" selection-start-line="378" selection-start-column="7" selection-end-line="378" selection-end-column="7" />
-              <folding>
-                <element signature="e#2910#3636#0#HTML" />
-              </folding>
+            <state relative-caret-position="351">
+              <caret line="13" column="86" selection-start-line="13" selection-start-column="86" selection-end-line="13" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="139" column="14" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+            <state relative-caret-position="396">
+              <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
             </state>
           </provider>
         </entry>
@@ -55,10 +54,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-363" />
-    <option name="y" value="532" />
-    <option name="width" value="1683" />
-    <option name="height" value="819" />
+    <option name="x" value="1912" />
+    <option name="y" value="292" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -112,19 +111,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551467964360</updated>
-      <workItem from="1551467966330" duration="4003000" />
+      <workItem from="1551467966330" duration="7346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4003000" />
+    <option name="totallyTimeSpent" value="7346000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="934" extended-state="6" />
+    <frame x="1912" y="292" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12533693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12015504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -148,13 +147,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="139" column="14" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basemap.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -174,13 +166,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="378" column="7" lean-forward="true" selection-start-line="378" selection-start-column="7" selection-end-line="378" selection-end-column="7" />
-          <folding>
-            <element signature="e#2910#3636#0#HTML" />
-          </folding>
+        <state relative-caret-position="351">
+          <caret line="13" column="86" selection-start-line="13" selection-start-column="86" selection-end-line="13" selection-end-column="86" />
         </state>
       </provider>
     </entry>
