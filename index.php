@@ -28,9 +28,9 @@
 <!-- Contenido -->
 <main class="page">
     <div class="container-fluid">
-        <div class="row flex-column">
-            <div class="col-md-10 col-lg-10 h-center">
-                <h2 class="text-center">Mapa RO 2019</h2>
+        <div class="row flex-column backgroundColor">
+            <div class="col-md-12 col-lg-12 h-center Titulo">
+                <h2 class="text-center">Regiones Reglas de Operación 2019</h2>
             </div>
             <div class="col-md-10 col-lg-10 h-center">
                 <img class="img-responsive" id="mi_figura">
@@ -366,13 +366,13 @@
             </div>
             <div class="col-md-10 col-lg-10 h-center">
                 <div class="col-md-12 datosEstado">
-                    <div class="col-md-8"><h4>Nombre Estado</h4></div>
+                    <div class="col-md-8 sep-bloque2"><h4>Nombre Estado</h4></div>
                     <div class="col-md-4"><h4>Region : {{0}}</h4></div>
                 </div>
             </div>
             <!--acordeon Convocatorias-->
             <div class="col-md-10 col-lg-10 h-center">
-                <div class="col-md-12 subtitulos">
+                <div class="col-md-12 subtitulosC1">
                     <div class="col-md-4">
                         <a role="button" data-toggle="collapse" data-target="#acordeonConvocatorias"
                            aria-expanded="false" aria-controls="acordeonConvocatorias">
@@ -381,7 +381,7 @@
                     </div>
                 </div>
                 <div class="collapse" id="acordeonConvocatorias">
-                    <div class="col-md-12 archivosEstadoTit well">
+                    <div class="col-md-12 archivosEstadoTit well1">
                         <div class="col-md-4 sep-bloque">Nombre archivo</div>
                         <div class="col-md-5 sep-bloque">Decripción</div>
                         <div class="col-md-3">Link de descarga</div>
@@ -403,7 +403,7 @@
             <!--acordeon Convocatorias-->
             <!--acordeon Anexos-->
             <div class="col-md-10 col-lg-10 h-center">
-                <div class="col-md-12 subtitulos">
+                <div class="col-md-12 subtitulosC2">
                     <div class="col-md-4">
                         <a role="button" data-toggle="collapse" data-target="#acordeonAnexos" aria-expanded="false"
                            aria-controls="acordeonAnexos">
@@ -412,7 +412,7 @@
                     </div>
                 </div>
                 <div class="collapse" id="acordeonAnexos">
-                    <div class="col-md-12 archivosEstadoTit well">
+                    <div class="col-md-12 archivosEstadoTit well2">
                         <div class="col-md-4 sep-bloque">Nombre archivo</div>
                         <div class="col-md-5 sep-bloque">Decripción</div>
                         <div class="col-md-3">Link de descarga</div>
@@ -434,7 +434,7 @@
             <!--acordeon Anexos-->
             <!--acordeon Áreas Elegibles-->
             <div class="col-md-10 col-lg-10 h-center">
-                <div class="col-md-12 subtitulos">
+                <div class="col-md-12 subtitulosC1">
                     <div class="col-md-4">
                         <a role="button" data-toggle="collapse" data-target="#acordeonAreas" aria-expanded="false"
                            aria-controls="acordeonAreas">
@@ -443,7 +443,7 @@
                     </div>
                 </div>
                 <div class="collapse" id="acordeonAreas">
-                    <div class="col-md-12 archivosEstadoTit well">
+                    <div class="col-md-12 archivosEstadoTit well1">
                         <div class="col-md-4 sep-bloque">Nombre archivo</div>
                         <div class="col-md-5 sep-bloque">Decripción</div>
                         <div class="col-md-3">Link de descarga</div>
@@ -465,7 +465,7 @@
             <!--acordeon Áreas Elegibles-->
             <!--acordeon TDR-->
             <div class="col-md-10 col-lg-10 h-center">
-                <div class="col-md-12 subtitulos">
+                <div class="col-md-12 subtitulosC2">
                     <div class="col-md-4">
                         <a role="button" data-toggle="collapse" data-target="#acordeonTdr" aria-expanded="false"
                            aria-controls="acordeonTdr">
@@ -474,7 +474,7 @@
                     </div>
                 </div>
                 <div class="collapse" id="acordeonTdr">
-                    <div class="col-md-12 archivosEstadoTit well">
+                    <div class="col-md-12 archivosEstadoTit well2">
                         <div class="col-md-4 sep-bloque">Nombre archivo</div>
                         <div class="col-md-5 sep-bloque">Decripción</div>
                         <div class="col-md-3">Link de descarga</div>
@@ -496,7 +496,7 @@
             <!--acordeon TDR-->
             <!--acordeon Otros Anexos-->
             <div class="col-md-10 col-lg-10 h-center">
-                <div class="col-md-12 subtitulos">
+                <div class="col-md-12 subtitulosC1">
                     <div class="col-md-4">
                         <a role="button" data-toggle="collapse" data-target="#acordeonOtros" aria-expanded="false"
                            aria-controls="acordeonOtros">
@@ -505,7 +505,7 @@
                     </div>
                 </div>
                 <div class="collapse" id="acordeonOtros">
-                    <div class="col-md-12 archivosEstadoTit well">
+                    <div class="col-md-12 archivosEstadoTit well1">
                         <div class="col-md-4 sep-bloque">Nombre archivo</div>
                         <div class="col-md-5 sep-bloque">Decripción</div>
                         <div class="col-md-3">Link de descarga</div>
@@ -527,7 +527,7 @@
             <!--acordeon Otros Anexos-->
             <!--acordeon Reglas de Operación-->
             <div class="col-md-10 col-lg-10 h-center">
-                <div class="col-md-12 subtitulos">
+                <div class="col-md-12 subtitulosC2">
                     <div class="col-md-4">
                         <a role="button" data-toggle="collapse" data-target="#acordeonReglas" aria-expanded="false"
                            aria-controls="acordeonReglas">
@@ -536,7 +536,7 @@
                     </div>
                 </div>
                 <div class="collapse" id="acordeonReglas">
-                    <div class="col-md-12 archivosEstadoTit well">
+                    <div class="col-md-12 archivosEstadoTit well2">
                         <div class="col-md-4 sep-bloque">Nombre archivo</div>
                         <div class="col-md-5 sep-bloque">Decripción</div>
                         <div class="col-md-3">Link de descarga</div>
