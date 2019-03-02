@@ -31,9 +31,9 @@
 <!-- Contenido -->
 <main class="page">
     <div class="container-fluid">
-        <div class="row flex-column backgroundColor">
-            <div class="col-md-12 col-lg-12 h-center Titulo">
-                <h2 class="text-center">Regiones Reglas de Operación 2019</h2>
+        <div class="row flex-column">
+            <div class="col-md-10 col-lg-10 h-center">
+                <h2 class="text-center">Mapa RO 2019</h2>
             </div>
             <div class="col-md-10 col-lg-10 h-center">
                 <img class="img-responsive" id="mi_figura">
