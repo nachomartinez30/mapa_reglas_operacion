@@ -378,7 +378,7 @@
             <!--Demo-->
             <!--acordeon-->
             <div class="col-md-10 col-lg-10 h-center">
-                <div class="col-md-12 datosEstado">
+                <div class="col-md-12 datosEstado2">
                     <div id="accordion" role="tablist" aria-multiselectable="true">
                         <div role="tab" id="headingOne">
                             <div class="col-md-12 subtitulos" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
