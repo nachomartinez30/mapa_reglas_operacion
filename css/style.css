@@ -141,10 +141,29 @@ body
 
 /*---CSS Global---*/
 /*---Tabla Estados---*/
+h4
+{
+	font-size: 18px;
+}
+h5
+{
+	font-size: 16px;
+}
+.Titulo
+{
+	color: #ffffff;
+	background-color: #9d2449;
+	/*padding: .1em 0;*/
+}
+.backgroundColor
+{
+	background-color: #ffffff;
+}
 .datosEstado
 {
 	background-color: #f3f3f3;
-	padding: .5em 0;
+	color: #9d2449;
+	padding: .3em 0;
 	border-radius: 5px;
 }
 .datosEstado2
@@ -154,7 +173,7 @@ body
 }
 .archivosEstado
 {
-	padding: .5em 0;
+	padding: .3em 0;
 	border-radius: 5px;
 	border: 1px solid #f3f3f3;
 	margin-bottom: .3em;
@@ -163,7 +182,7 @@ body
 {
 	color: #ffffff;
 	font-weight: bolder;
-	padding: .5em 0;
+	padding: .3em 0;
 	border-radius: 5px;
 	border: 1px solid #f3f3f3;
 	margin-bottom: .3em;
@@ -172,28 +191,48 @@ body
 {
 	color: #999999;
 }
-.subtitulos
+.subtitulosC1
 {
-	background-color: #999999;
+	background-color: #d4c19c;
 	color: #ffffff;
-	padding: .5em 0;
+	padding: .3em 0;
 	border-radius: 5px;
 	margin: .3em 0;
 }
-.subtitulos a
+.subtitulosC1 a
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.subtitulosC2
+{
+	background-color: #b38e5d;
+	color: #ffffff;
+	padding: .3em 0;
+	border-radius: 5px;
+	margin: .3em 0;
+}
+.subtitulosC2 a
 {
 	color: #ffffff;
 	text-decoration: none;
 }
 .sep-bloque
 {
-	border-right: 1px solid #f3f3f3
+	border-right: 1px solid #f3f3f3;
 }
-.well
+.sep-bloque2
 {
-	background-color: #9d2449!important;
+	border-right: 1px solid #9d2449;
 }
-
+.well1
+{
+	background-color: #b38e5d!important;
+}
+.well2
+{
+	background-color: #d4c19c!important;
+}
 
 
 /*CSS MAPA*/

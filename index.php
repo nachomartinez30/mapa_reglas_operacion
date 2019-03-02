@@ -11,7 +11,7 @@
     <link href="/favicon.ico" rel="shortcut icon">
     <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
     <!--    <link href="css/style.css" rel="stylesheet">-->
-    <link href="https://www.conafor.gob.mx/apoyos/css/style_map.css" rel="stylesheet">
+<!--    <link href="https://www.conafor.gob.mx/apoyos/css/style_map.css" rel="stylesheet">-->
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- CSS -->
@@ -374,6 +374,49 @@
                         <div class="col-md-4"><h4>Region : {{0}}</h4></div>
                     </div>
                 </div>
+                <!--acordeon Reglas de Operación-->
+                <div class="col-md-10 col-lg-10 h-center">
+                    <div class="col-md-12 subtitulosC2">
+                        <div class="col-md-4">
+                            <a role="button" data-toggle="collapse" data-target="#acordeonReglas" aria-expanded="false"
+                               aria-controls="acordeonReglas">
+                                <h5>Reglas de Operación</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collapse" id="acordeonReglas">
+                        <div class="col-md-12 archivosEstadoTit well2">
+                            <div class="col-md-4 sep-bloque">Nombre archivo</div>
+                            <div class="col-md-5 sep-bloque">Decripción</div>
+                            <div class="col-md-3">Link de descarga</div>
+                        </div>
+                        <!--Esto se debe repetir por cada archivo-->
+                        <div class="col-md-12 archivosEstado">
+                            <div class="col-md-4 sep-bloque" id="Reg_Arch">Reglas de Operacion Programa apoyos Desarrollo Forestal Sustentable 2019</div>
+                            <div class="col-md-5 sep-bloque" id="Reg_Des">Reglas de Operacion 2019</div>
+                            <div class="col-md-3">
+                                <a href="https://www.conafor.gob.mx/apoyos/index.php/inicio/download/14718" class="v-center h-center" id="Reg_Link">
+                                    <i class="material-icons">save_alt</i>
+                                </a>
+                                <i>Archivo tipo {{PDF}}</i>
+                            </div>
+                        </div>
+                        <!--Esto se debe repetir por cada archivo-->
+                        <!--Esto se debe repetir por cada archivo-->
+                        <div class="col-md-12 archivosEstado">
+                            <div class="col-md-4 sep-bloque" id="Reg_Arch">Reglas de Operacion Programa apoyos Desarrollo Forestal Sustentable 2019 (Parte II)</div>
+                            <div class="col-md-5 sep-bloque" id="Reg_Des">Reglas de Operacion 2019</div>
+                            <div class="col-md-3">
+                                <a href="https://www.conafor.gob.mx/apoyos/index.php/inicio/download/14719" class="v-center h-center" id="Reg_Link">
+                                    <i class="material-icons">save_alt</i>
+                                </a>
+                                <i>Archivo tipo {{PDF}}</i>
+                            </div>
+                        </div>
+                        <!--Esto se debe repetir por cada archivo-->
+                    </div>
+                </div>
+                <!--acordeon Reglas de Operación-->
                 <!--acordeon Convocatorias-->
                 <div class="col-md-10 col-lg-10 h-center">
                     <div class="col-md-12 subtitulosC1">
@@ -529,38 +572,9 @@
                     </div>
                 </div>
                 <!--acordeon Otros Anexos-->
-                <!--acordeon Reglas de Operación-->
-                <div class="col-md-10 col-lg-10 h-center">
-                    <div class="col-md-12 subtitulosC2">
-                        <div class="col-md-4">
-                            <a role="button" data-toggle="collapse" data-target="#acordeonReglas" aria-expanded="false"
-                               aria-controls="acordeonReglas">
-                                <h5>Reglas de Operación</h5>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="collapse" id="acordeonReglas">
-                        <div class="col-md-12 archivosEstadoTit well2">
-                            <div class="col-md-4 sep-bloque">Nombre archivo</div>
-                            <div class="col-md-5 sep-bloque">Decripción</div>
-                            <div class="col-md-3">Link de descarga</div>
-                        </div>
-                        <!--Esto se debe repetir por cada archivo-->
-                        <div class="col-md-12 archivosEstado">
-                            <div class="col-md-4 sep-bloque" id="Reg_Arch">{{Archivo bla bla}}</div>
-                            <div class="col-md-5 sep-bloque" id="Reg_Des">{{Descripción bla bla}}</div>
-                            <div class="col-md-3">
-                                <a href="" class="v-center h-center" id="Reg_Link">
-                                    <i class="material-icons">save_alt</i>
-                                </a>
-                                <i>Archivo tipo {{PDF}}</i>
-                            </div>
-                        </div>
-                        <!--Esto se debe repetir por cada archivo-->
-                    </div>
-                </div>
+
             </seccion>
-            <!--acordeon Reglas de Operación-->
+
             <!--<div class="col-md-8 col-lg-8 h-center">
                 <img src="img/RO2.jpg" class="img-responsive" alt="">
             </div>-->
