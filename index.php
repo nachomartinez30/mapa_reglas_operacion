@@ -28,8 +28,8 @@
             <div class="col-md-10 col-lg-10 h-center">
                 <h2 class="text-center">Mapa RO 2019</h2>
             </div>
-            <div class="col-md-8 col-lg-8 h-center">
-                <figure id="mi_figura">
+            <div class="col-md-10 col-lg-10 h-center">
+                <img class="img-responsive" id="mi_figura">
                     <? xml version = "1.0" encoding = "UTF-8" standalone = "no"?>
                     <!-- Created with Inkscape (http://www.inkscape.org/) -->
                     <svg
@@ -43,8 +43,9 @@
                             id="svg3919"
                             sodipodi:version="0.32"
                             inkscape:version="0.46"
-                            width="999.73236"
-                            height="679.94141"
+                            width="100%"
+                            height="680"
+                            preserveAspectRatio="xMinYMin meet"
                             version="1.0"
                             sodipodi:docbase="C:\Documents and Settings\Fam. Ventocilla\Mis documentos\{70443084}"
                             sodipodi:docname="States_of_Mexico.svg"
@@ -358,7 +359,23 @@
                         />
 
                     </svg>
-                </figure>
+                </img>
+            </div>
+            <div class="col-md-10 col-lg-10 h-center">
+                <div class="col-md-12 datosEstado">
+                    <div class="col-md-8"><h4>Nombre Estado</h4></div>
+                    <div class="col-md-4"><h4>Region : {{0}}</h4></div>
+                </div>
+                <div class="col-md-12 subtitulos">
+                    <div class="col-md-4"><h5>Convocatorias</h5></div>
+                </div>
+                <div class="col-md-12 archivosEstado">
+                    <div class="col-md-4 sep-bloque">Nombre archivo</div>
+                    <div class="col-md-5 sep-bloque">Decripción</div>
+                    <div class="col-md-3">Link</div>
+                </div>
+            <div class="col-md-8 col-lg-8 h-center">
+            <img src="img/RO2.jpg" class="img-responsive" alt="">
             </div>
         </div>
     </div>

@@ -147,4 +147,27 @@ path:hover {
 	fill:#255E69;
 }
 /*---CSS Global---*/
-
+/*---Tabla Estados---*/
+.datosEstado
+{
+	background-color: #f3f3f3;
+	padding: .5em 0;
+	border-radius: 5px;
+}
+.archivosEstado
+{
+	padding: .5em 0;
+	border-radius: 5px;
+	border: 1px solid #f3f3f3;
+}
+.subtitulos
+{
+	background-color: #999999;
+	color: #ffffff;
+	padding: .5em 0;
+	border-radius: 5px;
+}
+.sep-bloque
+{
+	border-right: 1px solid #f3f3f3
+}
