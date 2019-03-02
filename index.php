@@ -14,10 +14,10 @@
     <link href="https://www.conafor.gob.mx/apoyos/css/style_map.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- CSS -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <!-- CSS -->
     <!-- Respond.js soporte de media queries para Internet Explorer 8 -->
     <!-- ie8.js EventTarget para cada nodo en Internet Explorer 8 -->
     <!--[if lt IE 9]>
@@ -31,9 +31,9 @@
 <!-- Contenido -->
 <main class="page">
     <div class="container-fluid">
-        <div class="row flex-column">
-            <div class="col-md-10 col-lg-10 h-center">
-                <h2 class="text-center">Mapa RO 2019</h2>
+        <div class="row flex-column backgroundColor">
+            <div class="col-md-12 col-lg-12 h-center Titulo">
+                <h2 class="text-center">Regiones Reglas de Operación 2019</h2>
             </div>
             <div class="col-md-10 col-lg-10 h-center">
                 <img class="img-responsive" id="mi_figura">
@@ -367,190 +367,180 @@
                 </svg>
                 </img>
             </div>
-            <div class="col-md-10 col-lg-10 h-center">
-                <div class="col-md-12 datosEstado">
-                    <div class="col-md-8"><h4>Nombre Estado</h4></div>
-                    <div class="col-md-4"><h4>Region : {{0}}</h4></div>
-                </div>
-            </div>
-            <!--acordeon Convocatorias-->
-            <div class="col-md-10 col-lg-10 h-center">
-                <div class="col-md-12 subtitulos">
-                    <div class="col-md-4">
-                        <a role="button" data-toggle="collapse" data-target="#acordeonConvocatorias"
-                           aria-expanded="false" aria-controls="acordeonConvocatorias">
-                            <h5>Convocatorias</h5>
-                        </a>
+            <seccion id="secc_descargas">
+                <div class="col-md-10 col-lg-10 h-center">
+                    <div class="col-md-12 datosEstado">
+                        <div class="col-md-8 sep-bloque2"><h4>Nombre Estado</h4></div>
+                        <div class="col-md-4"><h4>Region : {{0}}</h4></div>
                     </div>
                 </div>
-                <div class="collapse" id="acordeonConvocatorias">
-                    <div class="col-md-12 archivosEstadoTit well">
-                        <div class="col-md-4 sep-bloque">Nombre archivo</div>
-                        <div class="col-md-5 sep-bloque">Decripción</div>
-                        <div class="col-md-3">Link de descarga</div>
-                    </div>
-                    <!--Esto se debe repetir por cada archivo-->
-                    <div class="col-md-12 archivosEstado">
-                        <div class="col-md-4 sep-bloque" id="Con_Arch">{{Archivo bla bla}}</div>
-                        <div class="col-md-5 sep-bloque" id="Con_Des">{{Descripción bla bla}}</div>
-                        <div class="col-md-3">
-                            <a href="" class="v-center h-center" id="Con_Link">
-                                <i class="material-icons">save_alt</i>
+                <!--acordeon Convocatorias-->
+                <div class="col-md-10 col-lg-10 h-center">
+                    <div class="col-md-12 subtitulosC1">
+                        <div class="col-md-4">
+                            <a role="button" data-toggle="collapse" data-target="#acordeonConvocatorias"
+                               aria-expanded="false" aria-controls="acordeonConvocatorias">
+                                <h5>Convocatorias</h5>
                             </a>
                         </div>
                     </div>
-                    <!--Esto se debe repetir por cada archivo-->
-                </div>
-            </div>
-            <!--acordeon Convocatorias-->
-            <!--acordeon Anexos-->
-            <div class="col-md-10 col-lg-10 h-center">
-                <div class="col-md-12 subtitulos">
-                    <div class="col-md-4">
-                        <a role="button" data-toggle="collapse" data-target="#acordeonAnexos" aria-expanded="false"
-                           aria-controls="acordeonAnexos">
-                            <h5>Anexos</h5>
-                        </a>
+                    <div class="collapse" id="acordeonConvocatorias">
+                        <div class="col-md-12 archivosEstadoTit well1">
+                            <div class="col-md-4 sep-bloque">Nombre archivo</div>
+                            <div class="col-md-5 sep-bloque">Decripción</div>
+                            <div class="col-md-3">Link de descarga</div>
+                        </div>
+                        <!--Esto se debe repetir por cada archivo-->
+                        <div class="col-md-12 archivosEstado">
+                            <div class="col-md-4 sep-bloque" id="Con_Arch">{{Archivo bla bla}}</div>
+                            <div class="col-md-5 sep-bloque" id="Con_Des">{{Descripción bla bla}}</div>
+                            <div class="col-md-3">
+                                <a href="" class="v-center h-center" id="Con_Link">
+                                    <i class="material-icons">save_alt</i>
+                                </a>
+                                <i>Archivo tipo {{PDF}}</i>
+                            </div>
+                        </div>
+                        <!--Esto se debe repetir por cada archivo-->
                     </div>
                 </div>
-                <div class="collapse" id="acordeonAnexos">
-                    <div class="col-md-12 archivosEstadoTit well">
-                        <div class="col-md-4 sep-bloque">Nombre archivo</div>
-                        <div class="col-md-5 sep-bloque">Decripción</div>
-                        <div class="col-md-3">Link de descarga</div>
-                    </div>
-                    <!--Esto se debe repetir por cada archivo-->
-                    <div class="col-md-12 archivosEstado">
-                        <div class="col-md-4 sep-bloque" id="Anx_Arch">{{Archivo bla bla}}</div>
-                        <div class="col-md-5 sep-bloque" id="Anx_Des">{{Descripción bla bla}}</div>
-                        <div class="col-md-3">
-                            <a href="" class="v-center h-center" id="Anx_Link">
-                                <i class="material-icons">save_alt</i>
+                <!--acordeon Convocatorias-->
+                <!--acordeon Anexos-->
+                <div class="col-md-10 col-lg-10 h-center">
+                    <div class="col-md-12 subtitulosC2">
+                        <div class="col-md-4">
+                            <a role="button" data-toggle="collapse" data-target="#acordeonAnexos" aria-expanded="false"
+                               aria-controls="acordeonAnexos">
+                                <h5>Anexos</h5>
                             </a>
                         </div>
                     </div>
-                    <!--Esto se debe repetir por cada archivo-->
-                </div>
-            </div>
-            <!--acordeon Anexos-->
-            <!--acordeon Áreas Elegibles-->
-            <div class="col-md-10 col-lg-10 h-center">
-                <div class="col-md-12 subtitulos">
-                    <div class="col-md-4">
-                        <a role="button" data-toggle="collapse" data-target="#acordeonAreas" aria-expanded="false"
-                           aria-controls="acordeonAreas">
-                            <h5>Áreas Elegibles</h5>
-                        </a>
+                    <div class="collapse" id="acordeonAnexos">
+                        <div class="col-md-12 archivosEstadoTit well2">
+                            <div class="col-md-4 sep-bloque">Nombre archivo</div>
+                            <div class="col-md-5 sep-bloque">Decripción</div>
+                            <div class="col-md-3">Link de descarga</div>
+                        </div>
+                        <!--Esto se debe repetir por cada archivo-->
+                        <div class="col-md-12 archivosEstado">
+                            <div class="col-md-4 sep-bloque" id="Anx_Arch">{{Archivo bla bla}}</div>
+                            <div class="col-md-5 sep-bloque" id="Anx_Des">{{Descripción bla bla}}</div>
+                            <div class="col-md-3">
+                                <a href="" class="v-center h-center" id="Anx_Link">
+                                    <i class="material-icons">save_alt</i>
+                                </a>
+                                <i>Archivo tipo {{PDF}}</i>
+                            </div>
+                        </div>
+                        <!--Esto se debe repetir por cada archivo-->
                     </div>
                 </div>
-                <div class="collapse" id="acordeonAreas">
-                    <div class="col-md-12 archivosEstadoTit well">
-                        <div class="col-md-4 sep-bloque">Nombre archivo</div>
-                        <div class="col-md-5 sep-bloque">Decripción</div>
-                        <div class="col-md-3">Link de descarga</div>
-                    </div>
-                    <!--Esto se debe repetir por cada archivo-->
-                    <div class="col-md-12 archivosEstado">
-                        <div class="col-md-4 sep-bloque" id="Are_Arch">{{Archivo bla bla}}</div>
-                        <div class="col-md-5 sep-bloque" id="Are_Des">{{Descripción bla bla}}</div>
-                        <div class="col-md-3">
-                            <a href="" class="v-center h-center" id="Are_Link">
-                                <i class="material-icons">save_alt</i>
+                <!--acordeon Anexos-->
+                <!--acordeon Áreas Elegibles-->
+                <div class="col-md-10 col-lg-10 h-center">
+                    <div class="col-md-12 subtitulosC1">
+                        <div class="col-md-4">
+                            <a role="button" data-toggle="collapse" data-target="#acordeonAreas" aria-expanded="false"
+                               aria-controls="acordeonAreas">
+                                <h5>Áreas Elegibles</h5>
                             </a>
                         </div>
                     </div>
-                    <!--Esto se debe repetir por cada archivo-->
-                </div>
-            </div>
-            <!--acordeon Áreas Elegibles-->
-            <!--acordeon TDR-->
-            <div class="col-md-10 col-lg-10 h-center">
-                <div class="col-md-12 subtitulos">
-                    <div class="col-md-4">
-                        <a role="button" data-toggle="collapse" data-target="#acordeonTdr" aria-expanded="false"
-                           aria-controls="acordeonTdr">
-                            <h5>TDR</h5>
-                        </a>
+                    <div class="collapse" id="acordeonAreas">
+                        <div class="col-md-12 archivosEstadoTit well1">
+                            <div class="col-md-4 sep-bloque">Nombre archivo</div>
+                            <div class="col-md-5 sep-bloque">Decripción</div>
+                            <div class="col-md-3">Link de descarga</div>
+                        </div>
+                        <!--Esto se debe repetir por cada archivo-->
+                        <div class="col-md-12 archivosEstado">
+                            <div class="col-md-4 sep-bloque" id="Are_Arch">{{Archivo bla bla}}</div>
+                            <div class="col-md-5 sep-bloque" id="Are_Des">{{Descripción bla bla}}</div>
+                            <div class="col-md-3">
+                                <a href="" class="v-center h-center" id="Are_Link">
+                                    <i class="material-icons">save_alt</i>
+                                </a>
+                                <i>Archivo tipo {{PDF}}</i>
+                            </div>
+                        </div>
+                        <!--Esto se debe repetir por cada archivo-->
                     </div>
                 </div>
-                <div class="collapse" id="acordeonTdr">
-                    <div class="col-md-12 archivosEstadoTit well">
-                        <div class="col-md-4 sep-bloque">Nombre archivo</div>
-                        <div class="col-md-5 sep-bloque">Decripción</div>
-                        <div class="col-md-3">Link de descarga</div>
-                    </div>
-                    <!--Esto se debe repetir por cada archivo-->
-                    <div class="col-md-12 archivosEstado">
-                        <div class="col-md-4 sep-bloque" id="Tdr_Arch">{{Archivo bla bla}}</div>
-                        <div class="col-md-5 sep-bloque" id="Tdr_Des">{{Descripción bla bla}}</div>
-                        <div class="col-md-3">
-                            <a href="" class="v-center h-center" id="Tdr_Link">
-                                <i class="material-icons">save_alt</i>
+                <!--acordeon Áreas Elegibles-->
+                <!--acordeon TDR-->
+                <div class="col-md-10 col-lg-10 h-center">
+                    <div class="col-md-12 subtitulosC2">
+                        <div class="col-md-4">
+                            <a role="button" data-toggle="collapse" data-target="#acordeonTdr" aria-expanded="false"
+                               aria-controls="acordeonTdr">
+                                <h5>TDR</h5>
                             </a>
                         </div>
                     </div>
-                    <!--Esto se debe repetir por cada archivo-->
-                </div>
-            </div>
-            <!--acordeon TDR-->
-            <!--acordeon Otros Anexos-->
-            <div class="col-md-10 col-lg-10 h-center">
-                <div class="col-md-12 subtitulos">
-                    <div class="col-md-4">
-                        <a role="button" data-toggle="collapse" data-target="#acordeonOtros" aria-expanded="false"
-                           aria-controls="acordeonOtros">
-                            <h5>Otros Anexos</h5>
-                        </a>
+                    <div class="collapse" id="acordeonTdr">
+                        <div class="col-md-12 archivosEstadoTit well2">
+                            <div class="col-md-4 sep-bloque">Nombre archivo</div>
+                            <div class="col-md-5 sep-bloque">Decripción</div>
+                            <div class="col-md-3">Link de descarga</div>
+                        </div>
+                        <!--Esto se debe repetir por cada archivo-->
+                        <div class="col-md-12 archivosEstado">
+                            <div class="col-md-4 sep-bloque" id="Tdr_Arch">{{Archivo bla bla}}</div>
+                            <div class="col-md-5 sep-bloque" id="Tdr_Des">{{Descripción bla bla}}</div>
+                            <div class="col-md-3">
+                                <a href="" class="v-center h-center" id="Tdr_Link">
+                                    <i class="material-icons">save_alt</i>
+                                </a>
+                                <i>Archivo tipo {{PDF}}</i>
+                            </div>
+                        </div>
+                        <!--Esto se debe repetir por cada archivo-->
                     </div>
                 </div>
-                <div class="collapse" id="acordeonOtros">
-                    <div class="col-md-12 archivosEstadoTit well">
-                        <div class="col-md-4 sep-bloque">Nombre archivo</div>
-                        <div class="col-md-5 sep-bloque">Decripción</div>
-                        <div class="col-md-3">Link de descarga</div>
-                    </div>
-                    <!--Esto se debe repetir por cada archivo-->
-                    <div class="col-md-12 archivosEstado">
-                        <div class="col-md-4 sep-bloque" id="Otr_Arch">{{Archivo bla bla}}</div>
-                        <div class="col-md-5 sep-bloque" id="Otr_Des">{{Descripción bla bla}}</div>
-                        <div class="col-md-3">
-                            <a href="" class="v-center h-center" id="Otr_Link">
-                                <i class="material-icons">save_alt</i>
+                <!--acordeon TDR-->
+                <!--acordeon Otros Anexos-->
+                <div class="col-md-10 col-lg-10 h-center">
+                    <div class="col-md-12 subtitulosC1">
+                        <div class="col-md-4">
+                            <a role="button" data-toggle="collapse" data-target="#acordeonOtros" aria-expanded="false"
+                               aria-controls="acordeonOtros">
+                                <h5>Otros Anexos</h5>
                             </a>
                         </div>
                     </div>
-                    <!--Esto se debe repetir por cada archivo-->
-                </div>
-            </div>
-            <!--acordeon Otros Anexos-->
-            <!--acordeon Reglas de Operación-->
-            <div class="col-md-10 col-lg-10 h-center">
-                <div class="col-md-12 subtitulos">
-                    <div class="col-md-4">
-                        <a role="button" data-toggle="collapse" data-target="#acordeonReglas" aria-expanded="false"
-                           aria-controls="acordeonReglas">
-                            <h5>Reglas de Operación</h5>
-                        </a>
+                    <div class="collapse" id="acordeonOtros">
+                        <div class="col-md-12 archivosEstadoTit well1">
+                            <div class="col-md-4 sep-bloque">Nombre archivo</div>
+                            <div class="col-md-5 sep-bloque">Decripción</div>
+                            <div class="col-md-3">Link de descarga</div>
+                        </div>
+                        <!--Esto se debe repetir por cada archivo-->
+                        <div class="col-md-12 archivosEstado">
+                            <div class="col-md-4 sep-bloque" id="Otr_Arch">{{Archivo bla bla}}</div>
+                            <div class="col-md-5 sep-bloque" id="Otr_Des">{{Descripción bla bla}}</div>
+                            <div class="col-md-3">
+                                <a href="" class="v-center h-center" id="Otr_Link">
+                                    <i class="material-icons">save_alt</i>
+                                </a>
+                                <i>Archivo tipo {{PDF}}</i>
+                            </div>
+                        </div>
+                        <!--Esto se debe repetir por cada archivo-->
                     </div>
                 </div>
-                <div class="collapse" id="acordeonReglas">
-                    <div class="col-md-12 archivosEstadoTit well">
-                        <div class="col-md-4 sep-bloque">Nombre archivo</div>
-                        <div class="col-md-5 sep-bloque">Decripción</div>
-                        <div class="col-md-3">Link de descarga</div>
-                    </div>
-                    <!--Esto se debe repetir por cada archivo-->
-                    <div class="col-md-12 archivosEstado">
-                        <div class="col-md-4 sep-bloque" id="Reg_Arch">{{Archivo bla bla}}</div>
-                        <div class="col-md-5 sep-bloque" id="Reg_Des">{{Descripción bla bla}}</div>
-                        <div class="col-md-3">
-                            <a href="" class="v-center h-center" id="Reg_Link">
-                                <i class="material-icons">save_alt</i>
+                <!--acordeon Otros Anexos-->
+                <!--acordeon Reglas de Operación-->
+                <div class="col-md-10 col-lg-10 h-center">
+                    <div class="col-md-12 subtitulosC2">
+                        <div class="col-md-4">
+                            <a role="button" data-toggle="collapse" data-target="#acordeonReglas" aria-expanded="false"
+                               aria-controls="acordeonReglas">
+                                <h5>Reglas de Operación</h5>
                             </a>
                         </div>
                     </div>
                     <div class="collapse" id="acordeonReglas">
-                        <div class="col-md-12 archivosEstadoTit well">
+                        <div class="col-md-12 archivosEstadoTit well2">
                             <div class="col-md-4 sep-bloque">Nombre archivo</div>
                             <div class="col-md-5 sep-bloque">Decripción</div>
                             <div class="col-md-3">Link de descarga</div>
@@ -569,8 +559,8 @@
                         <!--Esto se debe repetir por cada archivo-->
                     </div>
                 </div>
-                <!--acordeon Reglas de Operación-->
             </seccion>
+            <!--acordeon Reglas de Operación-->
             <!--<div class="col-md-8 col-lg-8 h-center">
                 <img src="img/RO2.jpg" class="img-responsive" alt="">
             </div>-->
@@ -582,8 +572,8 @@
 <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
 <script type="text/javascript">
     var variable = $("#secc_descargas").html();
-    // $("#secc_descargas").html('');
 
+    // $("#secc_descargas").html('');
     function getPath(estado) {
         if (estado !== 'undefined') {
             cve_entidad = getCveEntidad();

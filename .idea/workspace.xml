@@ -15,17 +15,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="468" column="47" lean-forward="true" selection-start-line="468" selection-start-column="47" selection-end-line="468" selection-end-column="47" />
+            <state relative-caret-position="513">
+              <caret line="689" column="9" lean-forward="true" selection-start-line="689" selection-start-column="9" selection-end-line="689" selection-end-column="9" />
               <folding>
-                <element signature="n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#7;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#8;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#131806#131830#0#HTML" />
-                <element signature="e#142863#142879#0#HTML" />
+                <element signature="e#142932#143163#0#HTML" />
+                <element signature="e#143199#146001#0#HTML" />
               </folding>
             </state>
           </provider>
@@ -124,20 +118,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11394000" />
+    <option name="totallyTimeSpent" value="11401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="934" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12533693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -145,35 +134,22 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basemap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="331" column="9" lean-forward="true" selection-start-line="1" selection-end-line="331" selection-end-column="9" />
-          <folding>
-            <element signature="n#figure#0;n#body#0;n#!!top" />
-            <element signature="e#1797#2523#0" />
-            <element signature="e#2532#6033#0" />
-            <element signature="e#6042#7240#0" />
-            <element signature="e#7249#12712#0" />
-            <element signature="e#12721#15326#0" />
-            <element signature="e#15335#17355#0" />
-            <element signature="e#17364#18252#0" />
-            <element signature="e#18261#18538#0" />
-            <element signature="e#18547#22483#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/basemap.html" />
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
@@ -183,17 +159,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="468" column="47" lean-forward="true" selection-start-line="468" selection-start-column="47" selection-end-line="468" selection-end-column="47" />
+        <state relative-caret-position="513">
+          <caret line="689" column="9" lean-forward="true" selection-start-line="689" selection-start-column="9" selection-end-line="689" selection-end-column="9" />
           <folding>
-            <element signature="n#div#3;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#131806#131830#0#HTML" />
-            <element signature="e#142863#142879#0#HTML" />
+            <element signature="e#142932#143163#0#HTML" />
+            <element signature="e#143199#146001#0#HTML" />
           </folding>
         </state>
       </provider>
