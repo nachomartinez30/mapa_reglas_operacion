@@ -374,6 +374,69 @@
                     <div class="col-md-5 sep-bloque">Decripción</div>
                     <div class="col-md-3">Link</div>
                 </div>
+            </div>
+            <!--Demo-->
+            <!--acordeon-->
+            <div class="col-md-10 col-lg-10 h-center">
+                <div class="col-md-12 datosEstado">
+                    <div id="accordion" role="tablist" aria-multiselectable="true">
+                        <div role="tab" id="headingOne">
+                            <div class="col-md-12 subtitulos" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <div class="col-md-4"><h5>Convocatorias</h5></div>
+                            </div>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="col-md-12 archivosEstado">
+                                <div class="col-md-4 sep-bloque">Nombre archivo</div>
+                                <div class="col-md-5 sep-bloque">Decripción</div>
+                                <div class="col-md-3">Link</div>
+                            </div>
+                            <div class="col-md-12 archivosEstado">
+                                <div class="col-md-4 sep-bloque">Nombre archivo</div>
+                                <div class="col-md-5 sep-bloque">Decripción</div>
+                                <div class="col-md-3">Link</div>
+                            </div>
+                            <div class="col-md-12 archivosEstado">
+                                <div class="col-md-4 sep-bloque">Nombre archivo</div>
+                                <div class="col-md-5 sep-bloque">Decripción</div>
+                                <div class="col-md-3">Link</div>
+                            </div>
+                            <div class="col-md-12 archivosEstado">
+                                <div class="col-md-4 sep-bloque">Nombre archivo</div>
+                                <div class="col-md-5 sep-bloque">Decripción</div>
+                                <div class="col-md-3">Link</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--acordeon-->
+            <div class="col-md-10 col-lg-10 h-center">
+                <div class="col-md-12 subtitulos">
+                    <div class="col-md-4"><h5>Anexos</h5></div>
+                </div>
+            </div>
+            <div class="col-md-10 col-lg-10 h-center">
+                <div class="col-md-12 subtitulos">
+                    <div class="col-md-4"><h5>Áreas Elegibles</h5></div>
+                </div>
+            </div>
+            <div class="col-md-10 col-lg-10 h-center">
+                <div class="col-md-12 subtitulos">
+                    <div class="col-md-4"><h5>TDR</h5></div>
+                </div>
+            </div>
+            <div class="col-md-10 col-lg-10 h-center">
+                <div class="col-md-12 subtitulos">
+                    <div class="col-md-4"><h5>Otros Anexos</h5></div>
+                </div>
+            </div>
+            <div class="col-md-10 col-lg-10 h-center">
+                <div class="col-md-12 subtitulos">
+                    <div class="col-md-4"><h5>Reglas de Operación</h5></div>
+                </div>
+            </div>
+            <!--Demo-->
             <div class="col-md-8 col-lg-8 h-center">
             <img src="img/RO2.jpg" class="img-responsive" alt="">
             </div>
