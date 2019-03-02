@@ -1,4 +1,8 @@
 /*---CSS Global---*/
+body
+{
+	font-family: "Montserrat",Helvetica,Arial,sans-serif;
+}
 .test
 {
 	border: 1px solid red;
