@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="302c3732-a1aa-4794-9e1e-9791df49c3ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +16,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="433" column="41" selection-start-line="433" selection-start-column="41" selection-end-line="433" selection-end-column="41" />
+            <state relative-caret-position="360">
+              <caret line="893" column="30" lean-forward="true" selection-start-line="893" selection-start-column="30" selection-end-line="893" selection-end-column="30" />
               <folding>
-                <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#138307#138538#0#HTML" />
-                <element signature="e#140924#143470#0#HTML" />
+                <element signature="e#141034#143580#0#HTML" />
               </folding>
             </state>
           </provider>
@@ -58,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -117,12 +115,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551467964360</updated>
       <workItem from="1551467966330" duration="11394000" />
-      <workItem from="1551804832464" duration="2302000" />
+      <workItem from="1551804832464" duration="3341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14775000" />
+    <option name="totallyTimeSpent" value="15814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="934" extended-state="6" />
@@ -156,12 +154,10 @@
     <entry file="file://$PROJECT_DIR$/basemap.html" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="433" column="41" selection-start-line="433" selection-start-column="41" selection-end-line="433" selection-end-column="41" />
+        <state relative-caret-position="360">
+          <caret line="893" column="30" lean-forward="true" selection-start-line="893" selection-start-column="30" selection-end-line="893" selection-end-column="30" />
           <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#138307#138538#0#HTML" />
-            <element signature="e#140924#143470#0#HTML" />
+            <element signature="e#141034#143580#0#HTML" />
           </folding>
         </state>
       </provider>

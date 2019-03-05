@@ -247,3 +247,7 @@ path{
 path:hover {
 	fill:#621132;
 }
+
+path:click {
+	fill:#621132;
+}
