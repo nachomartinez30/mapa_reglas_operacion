@@ -650,7 +650,7 @@ d="M 111.06746,47.394382 C 108.47898,41.713304 110.41849,40.167768 114.4594,44.6
 
 </seccion>
 </div>
-        <div id="bee" style="color: #B38E5D ">
+        <div id="bee" style="color: #B38E5D; background: #621132; border-radius: 10px;">
             <h2></h2>
         </div>
     </div>
@@ -671,6 +671,7 @@ d="M 111.06746,47.394382 C 108.47898,41.713304 110.41849,40.167768 114.4594,44.6
         
         if (estado !== 'undefined') {
             cve_entidad = getCveEntidad(estado);
+
             //console.log('https://www.conafor.gob.mx/apoyos/index.php/api/apoyos_api/create_download_files/?cve_entidad='+cve_entidad);
             $.ajax({
                 url: 'https://www.conafor.gob.mx/apoyos/index.php/api/apoyos_api/create_download_files/?cve_entidad='+cve_entidad,
@@ -683,6 +684,8 @@ d="M 111.06746,47.394382 C 108.47898,41.713304 110.41849,40.167768 114.4594,44.6
     }
 
     function getEstadoName(estado) {
+        $("#bee").css('padding-left','.3em')
+        $("#bee").css('padding-right','.3em')
         switch (estado) {
             case"aguascaliente":
             nom_ent = 'AGUASCALIENTES';
@@ -780,7 +783,7 @@ d="M 111.06746,47.394382 C 108.47898,41.713304 110.41849,40.167768 114.4594,44.6
             nom_ent = 'ZACATECAS';
             break;
         }
-        bee.innerHTML = "<h1>" + nom_ent + "</h1>";
+        bee.innerHTML = "<h2><i>" + nom_ent + "</i></h2>";
     }
 
     function getCveEntidad(estado) {
