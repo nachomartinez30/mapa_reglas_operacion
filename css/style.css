@@ -234,7 +234,56 @@ h5
 	background-color: #d4c19c!important;
 }
 
-
+/*Mapa Loader*/
+#div_loading_background{
+	background-image: url("../img/mapa_image.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 70%;
+	height: 100%;
+	min-height: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+#div_loading{
+	margin: 1em auto;
+	z-index: 1;
+	position: absolute;
+	left: 50%;
+	top: 45%;
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  /* Safari */
+  animation: spin 2s linear infinite;
+}
+/* Safari */
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.hide {
+	display: none
+}
+/*Mapa Loader*/
 /*CSS MAPA*/
 
 svg {
