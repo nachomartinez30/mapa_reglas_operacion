@@ -36,10 +36,6 @@
                     <!--<div id="div_loading" class="loader"></div>-->
                     <img class="img-responsive" id="mi_figura">
                     <div id="div_svg" class="svg-container">
-<<<<<<< HEAD:index.html
-                        <!--<div id="div_svg" class="svg-container hide">-->
-=======
->>>>>>> master:index.php
                         <!-- Created with Inkscape (http://www.inkscape.org/) -->
                         <svg viewBox="0 0 1010 700" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="svg3919" sodipodi:version="0.32" inkscape:version="0.46" preserveAspectRatio="xMinYMin meet" version="1.0" sodipodi:docbase="C:\Documents and Settings\Fam. Ventocilla\Mis documentos\{70443084}" sodipodi:docname="States_of_Mexico.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape">
                             <metadata id="metadata3924">
